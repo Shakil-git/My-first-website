@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table & Others</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{display: block;
+        margin-bottom: 5px;}
+        .nav{display: inline;
+        text-decoration: none;}
+        h1{text-align: center;
+        background-color: aquamarine;}
+        h3{background-color: beige;}
+        .submit{background-color: seagreen;
+        color: aliceblue;}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio&video.html">Audio & Video</a></li>
+                <li><a href="blogs.html">My blogs</a></li>
+                <li><a href="pitha.html">pitha</a></li>
+                <li><a href="table.html">table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Please fill up the from</h3>
+        <form>
+            <label class="fill" for="">Your name: <input placeholder="Your name" type="text"></label>
+            <label class="fill" for="">Password: <input placeholder="Password" type="password"></label>
+            <input class="submit" type="submit" value="submit">
+            <fieldset>
+                <legend>Pick one item</legend>
+                <label for="citoy"><input type="radio" name="pitha" id="">Citoy</label>
+                <label for="vapa"><input type="radio" name="pitha" id="">vapa</label>
+                <label for="puli"><input type="radio" name="pitha" id="">Puli</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Pick any one or more item</legend>
+                <h4>Vorta Item</h4>
+                <label for=""><input type="checkbox" name="vorta" id="">Sorisa vorta</label>
+                <label for=""><input type="checkbox" name="vorta" id="">Til vorta</label>
+                <label for=""><input type="checkbox" name="vorta" id="">Green chili vorta</label>
+                <label for=""><input type="checkbox" name="vorta" id="">Tomato vorta</label>
+                <h4>Fish Item</h4>
+                <label for=""><input type="radio" name="any one" id="">Rui mas</label>
+                <label for=""><input type="radio" name="any one" id="">Katol mas</label>
+                <label for=""><input type="radio" name="any one" id="">Boyal mas</label>
+
+                
+            </fieldset>
+            <fieldset>
+                <legend>Speacial instractsion</legend>
+            </fieldset>
+            <input type="reset" value="Reset">
+        </form>
+
+    </main>
+    <footer></footer>
+</body>
+</html>
